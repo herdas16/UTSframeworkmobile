@@ -181,7 +181,6 @@ class _DetailPageState extends State<DetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Image.asset(d.imagePath,width: 600, height: 200, fit: BoxFit.cover),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12),
@@ -195,7 +194,7 @@ class _DetailPageState extends State<DetailPage> {
               ),
               clipBehavior: Clip.antiAlias,
               child: Image.asset(
-                d.imagePath,
+                "assets/${d.imagePath}",
                 width: double.infinity,
                 height: 200,
                 fit: BoxFit.cover,
