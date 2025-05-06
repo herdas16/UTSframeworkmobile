@@ -103,7 +103,7 @@ class DestinationCard extends StatelessWidget {
           ClipRRect(
             borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
             child: Image.asset(
-              destination.imagePath,
+              "assets/${destination.imagePath}",
               height: 120,
               width: double.infinity,
               fit: BoxFit.cover,
